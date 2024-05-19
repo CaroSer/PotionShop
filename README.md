@@ -21,28 +21,32 @@ This repository contains a Potion Shop CRUD application developed using C# and B
 ### Installation
 
 1. Clone the repository:
-   
+```
    git clone git@github.com:CaroSer/PotionShop.git
+```
    
 2. Navigate to the project directory:
-   
+```
    cd potion-shop-crud
-   
+```
+
 3. Restore the dependencies:
-   
+```
    dotnet restore
+```
    
 4. Update the database connection string in `appsettings.json`.
 
 ### Running the Application
 
 1. Apply database migrations:
-   
+   ```
    dotnet ef database update
-   
+   ```
 2. Run the application:
-   
+   ```
    dotnet run
+   ```
    
 3. Open your browser and navigate to `https://localhost:5001`.
 
