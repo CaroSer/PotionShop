@@ -1,0 +1,29 @@
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\appsettings.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.staticwebassets.runtime.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.exe
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.deps.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.runtimeconfig.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.dll
+C:\Users\-\source\repos\Potion Shop\Potion Shop\bin\Debug\net8.0\Potion_Shop.pdb
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion Shop.AssemblyInfoInputs.cache
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion Shop.AssemblyInfo.cs
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion Shop.csproj.CoreCompileInputs.cache
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion_Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets\msbuild.Potion_Shop.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets\msbuild.build.Potion_Shop.props
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Potion_Shop.props
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Potion_Shop.props
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\scopedcss\bundle\Potion_Shop.styles.css
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\scopedcss\projectbundle\Potion_Shop.bundle.scp.css
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion_Shop.dll
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\refint\Potion_Shop.dll
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion_Shop.pdb
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\Potion Shop.genruntimeconfig.cache
+C:\Users\-\source\repos\Potion Shop\Potion Shop\obj\Debug\net8.0\ref\Potion_Shop.dll
