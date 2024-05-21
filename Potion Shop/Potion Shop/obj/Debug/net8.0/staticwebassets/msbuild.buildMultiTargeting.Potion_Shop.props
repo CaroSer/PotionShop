@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Potion_Shop.props" />
-</Project>

@@ -1,0 +1,107 @@
+@page "/ingredients/new"
+@page "/ingredients/edit/{Id:int}"
+@rendermode InteractiveServer
+@inject NavigationManager _navigator;
+@inject IIngredientService _service;
+
+
+<h2>@_message Ingredient</h2>
+<EditForm Model="_ingredients" FormName="frmPotion" OnValidSubmit="Save">
+    <DataAnnotationsValidator />
+
+    <div class="row mb-3">
+        <label for="txtName" class="col-2 col-form-label">Name</label>
+        <div class="col-10">
+            <InputText id="txtName" class="form-control" @bind-Value="_ingredients.Name" />
+            <ValidationMessage For="()=>_ingredients.Name" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="txtprpt" class="col-2 col-form-label">Property</label>
+        <div class="col-10">
+            <InputSelect class="form-select" @bind-Value="_ingredients.Property">
+                <option selected disabled>Select type...</option>
+                @foreach (var type in Enum.GetValues(typeof(IngredientProperty)))
+                {
+                    <option value="@type">@type</option>
+                }
+            </InputSelect>           
+            <ValidationMessage For="()=>_ingredients.Property" />
+        </div>
+    </div>
+
+
+    <div class="row mb-3">
+        <label for="txta" class="col-2 col-form-label">Stock</label>
+        <div class="col-10">
+            <InputNumber id="txta" class="form-control" @bind-Value="_ingredients.Stock"/>
+            <ValidationMessage For="()=>_ingredients.Stock" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="txta2" class="col-2 col-form-label">Warehouse Location</label>
+        <div class="col-10">
+            <InputSelect class="form-select" @bind-Value="_ingredients.WarehouseLocation">
+                <option selected disabled>Select Warehouse Location...</option>
+                @foreach(var location in Enum.GetValues(typeof(WarehouseLocation)))
+                {
+                    <option value="@location">@location</option>
+                }
+            </InputSelect>
+
+            <ValidationMessage For="()=>_ingredients.Stock" />
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button class="btn btn-danger ms-3" @onclick="Cancel" @onclick:preventDefault>Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string _message = "";
+    private Ingredient _ingredients = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id > 0)
+        {
+            _ingredients = await _service.GetById(Id);
+            _message = "Edit";
+        }
+        else
+        {
+            _message = "New";
+        }
+    }
+
+    private async void Save()
+    {
+        if (Id > 0)
+        {
+            await _service.Update(Id, _ingredients);
+
+        }
+        else
+        {
+            await _service.Add(_ingredients);
+
+        }
+        Cancel();
+    }
+
+    private void Cancel()
+    {
+        _navigator.NavigateTo("/ingredients");
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PotionShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PotionShop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PotionShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PotionShop.props",
+      "PackagePath": "build\\PotionShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PotionShop.props",
+      "PackagePath": "buildMultiTargeting\\PotionShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PotionShop.props",
+      "PackagePath": "buildTransitive\\PotionShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

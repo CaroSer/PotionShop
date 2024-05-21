@@ -1,0 +1,99 @@
+@page "/recipes/new"
+@page "/recipes/edit/{Id:int}"
+@rendermode InteractiveServer
+@inject NavigationManager _navigator;
+@inject IRecipeService _service;
+@inject IIngredientService _ingredients_service
+
+
+<h2>@_message Recipe</h2>
+<EditForm Model="_recipes" FormName="frmPotion" OnValidSubmit="Save">
+    <DataAnnotationsValidator />
+
+    <div class="row mb-3">
+        <label for="txtName" class="col-2 col-form-label">Result</label>
+        <div class="col-10">
+            <InputText id="txtName" class="form-control" @bind-Value="_recipes.Result" />
+            <ValidationMessage For="()=>_recipes.Result" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="txtName" class="col-2 col-form-label">Main Ingredient</label>
+        <div class="col-10">
+                <InputSelect class="form-select" @bind-Value="_recipes.MainIngredient">
+                    <option selected disabled>Select Main Ingredient...</option>
+                    @if(_ingredients!=null && _ingredients.Count>0){
+                    @foreach (var mainIngredient in _ingredients)
+                    {
+                        <option value="@mainIngredient.Name">@mainIngredient.Name</option>
+                    }}
+                </InputSelect>
+            </div>
+        </div>            <ValidationMessage For="()=>_recipes.MainIngredient" />
+
+    <div class="row mb-3">
+        <label for="txta" class="col-2 col-form-label">Stock</label>
+        <div class="col-10">
+            <InputNumber id="txta" class="form-control" @bind-Value="_recipes.Stock" />
+            <ValidationMessage For="()=>_recipes.Stock" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="txta2" class="col-2 col-form-label">Warehouse Location</label>
+        <div class="col-10">
+            <InputSelect class="form-select" @bind-Value="_recipes.WarehouseLocation">
+                <option selected disabled>Select Warehouse Location...</option>
+                @foreach(var location in Enum.GetValues(typeof(WarehouseLocation)))
+                {
+                    <option value="@location">@location</option>
+                }
+            </InputSelect>
+            </div>
+            </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button class="btn btn-danger ms-3" @onclick="Cancel" @onclick:preventDefault>Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string _message = "";
+    private Recipe _recipes = new();
+    private IList<Ingredient>? _ingredients;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _ingredients = await _ingredients_service.GetAll();
+        if (Id > 0)
+        {
+            _recipes = await _service.GetById(Id);
+            _message = "Edit";
+        }
+        else
+        {
+            _message = "New";
+        }
+    }
+
+    private async void Save()
+    {
+        if (Id > 0)
+        {
+            await _service.Update(Id, _recipes);
+
+        }
+        else
+        {
+            await _service.Add(_recipes);
+
+        }
+        Cancel();
+    }
+
+    private void Cancel()
+    {
+        _navigator.NavigateTo("/recipes");
+    }
+}

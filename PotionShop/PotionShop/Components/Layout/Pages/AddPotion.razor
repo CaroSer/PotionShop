@@ -1,0 +1,121 @@
+@page "/potion/new"
+@page "/potion/edit/{Id:int}"
+@rendermode InteractiveServer
+@inject NavigationManager _navigator;
+@inject IPotionService _service;
+@inject IRecipeService _recipe_service
+
+<h2>@_message Potion</h2>
+<EditForm Model="_potion" FormName="frmPotion" OnValidSubmit="Save">
+    <DataAnnotationsValidator />
+    <div class="row mb-3">
+        <label for="txtName" class="col-2 col-form-label">Name</label>
+        <div class="col-10">
+<InputSelect id="txtname" class="form-select" @bind-Value="_potion.Name">
+    <option selected disabled>Select a name from the captured recipes...</option>
+                @if(_recipes!=null && _recipes.Count() > 0)
+                {
+                    @foreach(var recipe in _recipes)
+                    {
+                        <option value="@recipe.Result">@recipe.Result</option>
+                    }
+                }
+            </InputSelect>
+
+
+            <ValidationMessage For="()=>_potion.Name" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="txtStock" class="col-2 col-form-label">Stock</label>
+        <div class="col-10">
+            <InputNumber id="txtStock" class="form-control" @bind-Value="_potion.Stock" />
+            <ValidationMessage For="()=>_potion.Stock" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label  class="col-2 col-form-label">Type</label>
+        <div class="col-10">
+            <InputSelect class="form-select" @bind-Value="_potion.Type">
+                <option selected disabled>Select type...</option>
+                @foreach (var type in Enum.GetValues(typeof(PotionType)))
+                {
+                    <option value="@type">@type</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="()=>_potion.Type" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-2 col-form-label">Power Level</label>
+        <div class="col-10">
+            <InputSelect class="form-select" @bind-Value="_potion.PowerLevel">
+                <option selected disabled>Select power level...</option>
+                @foreach (var level in Enum.GetValues(typeof(PotionPowerLevel)))
+                {
+                    <option value="@level">@level</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="()=>_potion.PowerLevel" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="ddlWarehouseLocation" class="col-2 col-form-label">Warehouse Location</label>
+        <div class="col-10">
+            <InputSelect id="ddlWarehouseLocation" class="form-select" @bind-Value="_potion.WarehouseLocation">
+                <option selected disabled>Select warehouse location...</option>
+                @foreach (var location in Enum.GetValues(typeof(WarehouseLocation)))
+                {
+                <option value="@location">@location</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="()=>_potion.WarehouseLocation" />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button class="btn btn-danger ms-3" @onclick="Cancel" @onclick:preventDefault>Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string _message = "";
+    private Potion _potion = new();
+    private List<Recipe>? _recipes = new();
+    protected override async Task OnInitializedAsync()
+    {
+        _recipes = await _recipe_service.GetAll();
+
+        if (Id > 0)
+        {
+            _potion = await _service.GetById(Id);
+            _message = "Edit";
+        }
+        else
+        {
+            _message = "New";
+        }
+    }
+
+    private async void Save()
+    {
+        if (Id > 0)
+        {
+            await _service.Update(Id, _potion);
+
+        }
+        else
+        {
+            await _service.Add(_potion);
+
+        }
+        Cancel();
+    }
+
+    private void Cancel()
+    {
+        _navigator.NavigateTo("/");
+    }
+}
