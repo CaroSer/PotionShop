@@ -1,12 +1,157 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\-\\source\\repos\\PotionShop\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\models\\entities\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\models\\entities\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\models\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\models\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\models\\enums\\ingredientproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\models\\enums\\ingredientproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\models\\enums\\warehouselocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\models\\enums\\warehouselocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\models\\enums\\potiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\models\\enums\\potiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\components\\layout\\pages\\addrecipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\components\\layout\\pages\\addrecipe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\components\\layout\\pages\\addpotion.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\components\\layout\\pages\\addpotion.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|c:\\users\\-\\downloads\\potionshop\\potionshop\\potionshop\\components\\layout\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980BB28D-E65B-4C15-A6B2-F8D19A61C0D8}|PotionShop\\PotionShop.csproj|solutionrelative:potionshop\\components\\layout\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPotion.razor",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\AddPotion.razor",
+              "RelativeDocumentMoniker": "PotionShop\\Components\\Layout\\Pages\\AddPotion.razor",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\AddPotion.razor",
+              "RelativeToolTip": "PotionShop\\Components\\Layout\\Pages\\AddPotion.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T00:10:17.269Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Potion.cs",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Entities\\Potion.cs",
+              "RelativeDocumentMoniker": "PotionShop\\Models\\Entities\\Potion.cs",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Entities\\Potion.cs",
+              "RelativeToolTip": "PotionShop\\Models\\Entities\\Potion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:42:49.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Entities\\Ingredient.cs",
+              "RelativeDocumentMoniker": "PotionShop\\Models\\Entities\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Entities\\Ingredient.cs",
+              "RelativeToolTip": "PotionShop\\Models\\Entities\\Ingredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:39:36.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarehouseLocation.cs",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\WarehouseLocation.cs",
+              "RelativeDocumentMoniker": "PotionShop\\Models\\Enums\\WarehouseLocation.cs",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\WarehouseLocation.cs",
+              "RelativeToolTip": "PotionShop\\Models\\Enums\\WarehouseLocation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:36:16.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IngredientProperty.cs",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\IngredientProperty.cs",
+              "RelativeDocumentMoniker": "PotionShop\\Models\\Enums\\IngredientProperty.cs",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\IngredientProperty.cs",
+              "RelativeToolTip": "PotionShop\\Models\\Enums\\IngredientProperty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:36:10.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PotionType.cs",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\PotionType.cs",
+              "RelativeDocumentMoniker": "PotionShop\\Models\\Enums\\PotionType.cs",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Models\\Enums\\PotionType.cs",
+              "RelativeToolTip": "PotionShop\\Models\\Enums\\PotionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:35:40.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddRecipe.razor",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\AddRecipe.razor",
+              "RelativeDocumentMoniker": "PotionShop\\Components\\Layout\\Pages\\AddRecipe.razor",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\AddRecipe.razor",
+              "RelativeToolTip": "PotionShop\\Components\\Layout\\Pages\\AddRecipe.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T00:34:07.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "PotionShop\\Components\\Layout\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\Components\\Layout\\Pages\\Home.razor",
+              "RelativeToolTip": "PotionShop\\Components\\Layout\\Pages\\Home.razor",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T00:27:07.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

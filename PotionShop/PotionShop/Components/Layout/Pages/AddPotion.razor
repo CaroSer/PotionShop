@@ -11,19 +11,19 @@
     <div class="row mb-3">
         <label for="txtName" class="col-2 col-form-label">Name</label>
         <div class="col-10">
-<InputSelect id="txtname" class="form-select" @bind-Value="_potion.Name">
+<InputSelect id="txtname" class="form-select" @bind-Value="_potion.RecipeId">
     <option selected disabled>Select a name from the captured recipes...</option>
                 @if(_recipes!=null && _recipes.Count() > 0)
                 {
                     @foreach(var recipe in _recipes)
                     {
-                        <option value="@recipe.Result">@recipe.Result</option>
+                        <option value="@recipe.Id">@recipe.Result</option>
                     }
                 }
             </InputSelect>
 
 
-            <ValidationMessage For="()=>_potion.Name" />
+            <ValidationMessage For="()=>_potion.RecipeId" />
         </div>
     </div>
     <div class="row mb-3">
@@ -37,7 +37,7 @@
         <label  class="col-2 col-form-label">Type</label>
         <div class="col-10">
             <InputSelect class="form-select" @bind-Value="_potion.Type">
-                <option selected disabled>Select type...</option>
+                <option selected disabled>Select the type...</option>
                 @foreach (var type in Enum.GetValues(typeof(PotionType)))
                 {
                     <option value="@type">@type</option>
@@ -50,7 +50,7 @@
         <label class="col-2 col-form-label">Power Level</label>
         <div class="col-10">
             <InputSelect class="form-select" @bind-Value="_potion.PowerLevel">
-                <option selected disabled>Select power level...</option>
+                <option value="0" selected disabled>Select power level...</option>
                 @foreach (var level in Enum.GetValues(typeof(PotionPowerLevel)))
                 {
                     <option value="@level">@level</option>

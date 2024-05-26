@@ -20,16 +20,16 @@
     <div class="row mb-3">
         <label for="txtName" class="col-2 col-form-label">Main Ingredient</label>
         <div class="col-10">
-                <InputSelect class="form-select" @bind-Value="_recipes.MainIngredient">
+                <InputSelect class="form-select" @bind-Value="_recipes.IngredientId">
                     <option selected disabled>Select Main Ingredient...</option>
                     @if(_ingredients!=null && _ingredients.Count>0){
                     @foreach (var mainIngredient in _ingredients)
                     {
-                        <option value="@mainIngredient.Name">@mainIngredient.Name</option>
+                        <option value="@mainIngredient.Id">@mainIngredient.Name</option>
                     }}
                 </InputSelect>
             </div>
-        </div>            <ValidationMessage For="()=>_recipes.MainIngredient" />
+    </div>            <ValidationMessage For="()=>_recipes.IngredientId" />
 
     <div class="row mb-3">
         <label for="txta" class="col-2 col-form-label">Stock</label>

@@ -35,7 +35,7 @@ else
             @foreach (var potion in _potions)
             {
                 <tr>
-                    <td>@potion.Name</td> 
+                    <td>@potion.Recipe?.Result</td> 
                     <td>@potion.Type</td>
                     <td>@potion.PowerLevel</td>
                     <td>@potion.Stock</td>

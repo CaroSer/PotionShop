@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDNqcAMCq1BIBiG+33vaAYELuXXqdN4/nXEne5CYHUMC1ftUwm1YLuau1TrX+WE0SeRqX/dQNxMpTqTtFaspug==",
+  "dgSpecHash": "JgjlPca8YR6jWsTVKUqUQzKOSbDTUSKfBUG/V48lAKZmAUYrETpdTEpWuw35XywxOMRQ4LauSZ52wQZF9YGv0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\PotionShop.csproj",
+  "projectFilePath": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\PotionShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\-\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\-\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

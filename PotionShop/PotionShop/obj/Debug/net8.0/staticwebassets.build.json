@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RZJ111ZBVQ63WD2yi77F2FdmzdbMzOyMvi6C+W1whAA=",
+  "Hash": "X1X/iWOgVvswTJwz+Vi+woTu4lpqK2vG7PS2Rj1vTEs=",
   "Source": "PotionShop",
   "BasePath": "_content/PotionShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PotionShop\\wwwroot",
       "Source": "PotionShop",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\",
       "BasePath": "_content/PotionShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PotionShop.styles.css",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PotionShop.styles.css",
       "SourceId": "PotionShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "PotionShop.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PotionShop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PotionShop.styles.css"
     },
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PotionShop.bundle.scp.css",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PotionShop.bundle.scp.css",
       "SourceId": "PotionShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "PotionShop.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PotionShop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PotionShop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\app.css",
       "SourceId": "PotionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PotionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PotionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\favicon.png",
       "SourceId": "PotionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\wwwroot\\",
       "BasePath": "_content/PotionShop",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

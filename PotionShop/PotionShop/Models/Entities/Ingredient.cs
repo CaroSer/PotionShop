@@ -10,5 +10,7 @@ namespace PotionShop.Models.Entities
         [Required] public IngredientProperty Property { get; set; }
         [Required][Range(0, 999)] public int Stock { get; set; }
         [Required] public WarehouseLocation WarehouseLocation { get; set; }
+
+        public ICollection<Recipe>? Recipes { get; set; }
     }
 }

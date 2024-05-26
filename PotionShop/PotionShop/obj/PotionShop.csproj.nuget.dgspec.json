@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\PotionShop.csproj": {}
+    "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\PotionShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\PotionShop.csproj": {
+    "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\PotionShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\PotionShop.csproj",
+        "projectUniqueName": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\PotionShop.csproj",
         "projectName": "PotionShop",
-        "projectPath": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\PotionShop.csproj",
+        "projectPath": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\PotionShop.csproj",
         "packagesPath": "C:\\Users\\-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\-\\source\\repos\\PotionShop\\PotionShop\\obj\\",
+        "outputPath": "C:\\Users\\-\\Downloads\\PotionShop\\PotionShop\\PotionShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

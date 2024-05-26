@@ -55,6 +55,14 @@ namespace PotionShop.Migrations
                             Property = 6,
                             Stock = 50,
                             WarehouseLocation = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Mandrake Root",
+                            Property = 8,
+                            Stock = 30,
+                            WarehouseLocation = 6
                         });
                 });
 
@@ -66,12 +74,10 @@ namespace PotionShop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
                     b.Property<int>("PowerLevel")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RecipeId")
                         .HasColumnType("int");
 
                     b.Property<int>("Stock")
@@ -85,18 +91,9 @@ namespace PotionShop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Potions");
+                    b.HasIndex("RecipeId");
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Charmcaster Elixir",
-                            PowerLevel = 1,
-                            Stock = 50,
-                            Type = 4,
-                            WarehouseLocation = 0
-                        });
+                    b.ToTable("Potions");
                 });
 
             modelBuilder.Entity("PotionShop.Models.Entities.Recipe", b =>
@@ -107,10 +104,8 @@ namespace PotionShop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("MainIngredient")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.Property<int>("IngredientId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Result")
                         .IsRequired()
@@ -125,17 +120,59 @@ namespace PotionShop.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("IngredientId");
+
                     b.ToTable("Recipes");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            MainIngredient = "Hazlenut",
+                            IngredientId = 1,
                             Result = "Charmcaster Elixir",
                             Stock = 50,
                             WarehouseLocation = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IngredientId = 1,
+                            Result = "Love Elixir",
+                            Stock = 0,
+                            WarehouseLocation = 6
                         });
+                });
+
+            modelBuilder.Entity("PotionShop.Models.Entities.Potion", b =>
+                {
+                    b.HasOne("PotionShop.Models.Entities.Recipe", "Recipe")
+                        .WithMany("Potions")
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Recipe");
+                });
+
+            modelBuilder.Entity("PotionShop.Models.Entities.Recipe", b =>
+                {
+                    b.HasOne("PotionShop.Models.Entities.Ingredient", "Ingredient")
+                        .WithMany("Recipes")
+                        .HasForeignKey("IngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredient");
+                });
+
+            modelBuilder.Entity("PotionShop.Models.Entities.Ingredient", b =>
+                {
+                    b.Navigation("Recipes");
+                });
+
+            modelBuilder.Entity("PotionShop.Models.Entities.Recipe", b =>
+                {
+                    b.Navigation("Potions");
                 });
 #pragma warning restore 612, 618
         }
